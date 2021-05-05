@@ -80,3 +80,16 @@
     filter: sepia(0.8);
     filter: saturate(0.9);
 }
+
+/* esercizio 9 */
+
+.ex-9-img{
+    transition: 2s;
+}
+
+.ex-9-img:hover{
+    transform: scale(1.5);
+    border-radius: 20px;
+    filter: grayscale(0.6);
+    filter: sepia(0.5);
+}
